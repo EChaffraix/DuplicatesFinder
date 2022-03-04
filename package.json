@@ -1,0 +1,41 @@
+{
+  "name": "duplicatesfinder",
+  "version": "1.0.0",
+  "description": "A desktop application that helps to find duplicates in different folders",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "run": "node dist/index.js",
+    "runts": "./node_modules/ts-node/dist/bin.js ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EChaffraix/DuplicatesFinder.git"
+  },
+  "keywords": [
+    "duplicates",
+    "Google drive",
+    "Onedrive"
+  ],
+  "author": "Emmanuel CHAFFRAIX",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/EChaffraix/DuplicatesFinder/issues"
+  },
+  "homepage": "https://github.com/EChaffraix/DuplicatesFinder#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/node": "^17.0.21",
+    "@types/sqlite3": "^3.1.8",
+    "electron": "^17.1.0",
+    "tslib": "^2.3.1"
+  },
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.8",
+    "@vscode/sqlite3": "^5.0.7",
+    "md5-file": "^5.0.0",
+    "ts-node": "^10.6.0",
+    "typescript": "^4.6.2"
+  }
+}
